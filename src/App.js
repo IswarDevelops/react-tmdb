@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import { GlobalStyle } from './GlobalStyle';
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="light"></div>
-        <div className="light"></div>
-        <div><button className="switch">On</button></div>
-        <div><button className="switch">Off</button></div>
-      </div>
-      
+      <Header />
+      Start Here.
+      <GlobalStyle />
     </div>
   );
 }
